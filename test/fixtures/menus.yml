@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  starter: MyString
+  price: 1.5
+  salad: MyString
+  soup: MyString
+  pizza: MyString
+
+two:
+  starter: MyString
+  price: 1.5
+  salad: MyString
+  soup: MyString
+  pizza: MyString
