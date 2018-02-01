@@ -1,7 +1,7 @@
 module Api::V1 
   class RegistrationsController < ApiController    
-    # include UserSignatures
-    # before_action :verify_token!, except:[:create] 
+     include UserSignatures
+     before_action :verify_token!, except:[:create] 
     def new
       user = User.new
     end
