@@ -26,7 +26,7 @@ module Api::V1
     end
     private
     def create_params
-      params.require(:user).permit(:name, :first_name, :last_name, :gender, :auth_token, :email, :image, :nickname)
+      params.require(:user).permit(:name, :first_name, :last_name, :gender, :auth_token, :email, :nickname)
     end
   end
 end

@@ -11,7 +11,7 @@ class MenusController < ApplicationController
   # GET /menus/1
   # GET /menus/1.json
   def show
-    render json: @menu
+    render json: @menus
   end
 
   # GET /menus/new

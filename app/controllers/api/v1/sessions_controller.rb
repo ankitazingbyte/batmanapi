@@ -1,7 +1,7 @@
 module Api::V1 
   class RegistrationsController < ApiController  
     # include UserSignatures
-    # before_action :verify_token!
+    before_action :verify_token!
 
   	def create
   		user_token = request.headers['HTTP_AUTH_TOKEN']
